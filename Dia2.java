@@ -5,7 +5,6 @@ public class Dia2 {
     public static int FibonacciHashmap(int valor, HashMap<Integer, Integer> memo) {
 
         if (memo.containsKey(valor)) {
-            // Si ya lo calculé, lo tomo del HashMap
             return memo.get(valor);
         } else {
             if (valor <= 0) {
