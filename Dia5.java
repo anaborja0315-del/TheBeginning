@@ -12,9 +12,9 @@ public class Dia5 {
     }
 
     public static void main(String[] args) {
-        int[] numeros = { 1, 3, 5, 7, 9 };
-        int objetivo = 6;
+        int[] numeros = {2, 5, 8, 12, 16, 23, 38, 45, 50, 64};
+        int objetivo = 23;
         int resultado = contarMenoresQue(numeros, objetivo);
-        System.out.println("Cantidad de números menores que " + objetivo + ": " + resultado);
+        System.out.println("Cantidad de numeros menores que " + objetivo + ": " + resultado);
     }
 }
