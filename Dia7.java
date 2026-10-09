@@ -15,6 +15,9 @@ public class Dia7 {
     }
 
     public static int suma(int n) {
+        if(n <= 0){
+            return 0;
+        }
         if (n == 1) {
             return 1;
         }
@@ -31,7 +34,7 @@ public class Dia7 {
         int resultadoPotencia = potencia(base, exponente);
         System.out.println("La potencia de " + base + " elevado a " + exponente + " es: " + resultadoPotencia);
 
-        int n = 5;
+        int n = -1;
         int result = suma(n);
         System.out.println("La suma recursiva del numero "+ n + " es en total: "+ result );
     }
